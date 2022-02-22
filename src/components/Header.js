@@ -119,7 +119,7 @@ const BurgerNav = styled.div`
   right: 0;
   bottom: 0;
   background-color: #fff;
-  width: 40vw;
+  width: 30vw;
   z-index: 20;
   list-style: none;
   padding: 2rem;
@@ -129,7 +129,7 @@ const BurgerNav = styled.div`
 
   li {
     display: block;
-    margin-top: 2rem;
+    padding-top: 2rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 
     a {
@@ -138,7 +138,6 @@ const BurgerNav = styled.div`
       display: flex;
       flex-grow: 1;
       flex-shrink: 1;
-      /* justify-content: center; */
     }
   }
 `;
