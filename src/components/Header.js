@@ -124,7 +124,7 @@ const BurgerNav = styled.div`
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 
     @media (max-width: 768px) {
-      padding-top: 0.8rem;
+      padding-top: 0.7rem;
     }
 
     a {
